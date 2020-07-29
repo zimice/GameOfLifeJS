@@ -14,7 +14,7 @@ function setup(){
   grid = make2dArray(cols,rows);
   for(i =0;i<cols;i++){
     for(j =0;j<rows;j++){
-      grid[i][j] = Math.floor(Math.random(2));
+      grid[i][j] = Math.round(Math.random());
     }
   }
 }
